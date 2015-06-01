@@ -1,7 +1,6 @@
 # Botany 2015 presentation
 
-## Estimating allele frequencies in non-model polyploids using
-throughput sequencing data
+## Estimating allele frequencies in non-model polyploids using high throughput sequencing data
 
 The presentation is in the file pblischak_botany2015talk.pdf. I made the presentation using **LaTeX** and **beamer**. 
 
