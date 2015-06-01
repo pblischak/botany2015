@@ -1,0 +1,84 @@
+\documentclass[t,presentation,10pt,xcolor=table]{beamer}
+\usetheme{Madrid}
+\usecolortheme{crane}
+\usefonttheme[onlymath]{serif}
+\usepackage{xfrac}
+\usepackage{adjustbox}
+\title[Allele frequencies in polyploids]{Estimating allele frequencies in non-model polyploids using high throughput sequencing data}
+\author[Botany 2015]{Paul Blischak, Laura Kubatko, Andrea Wolfe}
+\institute[The Ohio State University]
+{
+Dept. of EEOB \\
+The Ohio State University
+}
+\date{\today}
+
+\begin{document}
+\frame{\titlepage}
+
+\section{Tests for introgression}
+\subsection{Patterson's D-statistic}
+
+\begin{frame}
+\frametitle{ABBA-BABA statistics}
+$$\mathbf{D} = \frac{\displaystyle\sum \mathcal{C}_{ABBA}-\mathcal{C}_{BABA}}{\displaystyle\sum \mathcal{C}_{ABBA}+\mathcal{C}_{BABA}}$$
+\end{frame}
+
+\subsection{$f$ estimators}
+
+\begin{frame}
+$$ f = \frac{\displaystyle\sum \mathcal{C}_{ABBA}-\mathcal{C}_{BABA}}{\displaystyle\sum \mathcal{C}_{ABBA}+\mathcal{C}_{BABA}}$$
+\end{frame}
+
+\section{{\it Penstemon attenuatus}}
+
+\begin{frame}
+\frametitle{\textit{Penstemon attenuatus}}
+The \textit{Penstemon attenuatus} Doug. ex Lindl. species complex \ldots
+\end{frame}
+
+\section{Population genetics models}
+
+\begin{frame}
+\frametitle{Posterior distribution of allele frequencies}
+\begin{equation}
+P(\,p_{l},g_{li}|R_{li}^{b},\epsilon) \propto \displaystyle\prod_{l} \displaystyle\prod_{i} P(R_{li}^{b}|g_{li},\epsilon)P(g_{li}|p_{l})P(p_{l}).
+\end{equation}
+\end{frame}
+
+\begin{frame}
+\frametitle{Notation}
+\begin{table}\small
+%\centering
+\rowcolors{1}{white}{gray!25}
+%\bgroup
+\def\arraystretch{1.45}
+\adjustbox{max height=\dimexpr\textheight-5.0cm\relax,max width=\textwidth}{
+\begin{tabular}[l]{l | l}
+\hline
+\textbf{Symbol} & \textbf{Description}\\ \hline
+$L$ & The number of loci. \\
+$l$ & Index for loci ($l\; \in \{1,\ldots,L\}$). \\
+$N_{k}$ & The number of individuals sampled from population k. \\
+$k$ & Index for populations ($k\; \in \{P_{1},P_{poly},P_{2},O\}$). \\
+$i$ & Index for individuals in a population $k$ ($i\; \in \{1,\ldots,N_{k}\}$). \\
+$N_{lk}$ & The number of individuals sampled at locus $l$ in population $k$. \\
+$N_{lk}^{a}$ & The number of individuals homozygous for A  at locus $l$ in population $k$. \\
+$N_{lk}^{b}$ & The number of individuals homozygous for B  at locus $l$ in population $k$. \\
+$N_{lk}^{ab}$ & The number of heterozygous individuals at locus $l$ in population $k$. \\
+$\hat{p}_{lk}$ & Frequency of the derived allele (B) at locus $l$ in population $k$. \\
+$P_{k}$ & The ploidy of individuals in population $k$. \\
+$R_{li}$ & The number of reads for individual $i$ at locus $l$. \\
+$R_{li}^{a}$ & The number of reads with allele A for individual $i$ at locus $l$. \\
+$R_{li}^{b}$ & The number of reads with allele B for individual $i$ at locus $l$. \\
+$r_{li}^{a}$ & Proportion of reads with allele A ($\sfrac{R_{li}^{a}}{R_{li}}$). \\
+$r_{li}^{b}$ & Proportion of reads with allele A ($\sfrac{R_{li}^{b}}{R_{li}}$). \\
+\hline
+\end{tabular}}
+%\egroup
+%\caption{Notation and symbols used in the description of the model for detecting introgression in polyploids.}
+\label{table:1}
+\end{table}
+\end{frame}
+
+\end{document}
