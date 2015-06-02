@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  1 JUN 2015 17:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  2 JUN 2015 14:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -724,10 +724,20 @@ Package: beamerinnerthemedefault 2013/10/15  (rcs-revision 65cb471f9634)
 emedefault.sty
 Package: beamerouterthemedefault 2012/12/19  (rcs-revision 1686da3db3c9)
 )))
-(/usr/local/texlive/2014/texmf-dist/tex/latex/beamer/themes/theme/beamerthemeMa
-drid.sty
-Package: beamerthemeMadrid 2010/06/17  (rcs-revision d02a7cf4d8ae)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/beamer/themes/theme/beamerthemeBe
+rkeley.sty
+Package: beamerthemeBerkeley 2010/06/17  (rcs-revision d02a7cf4d8ae)
 
+(/usr/local/texlive/2014/texmf-dist/tex/latex/beamer/themes/outer/beamerouterth
+emesidebar.sty
+Package: beamerouterthemesidebar 2010/06/17  (rcs-revision d02a7cf4d8ae)
+\beamer@sidebarwidth=\dimen190
+\beamer@headheight=\dimen191
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/beamer/themes/inner/beamerinnerth
+emerectangles.sty
+Package: beamerinnerthemerectangles 2010/06/17  (rcs-revision d02a7cf4d8ae)
+)
 (/usr/local/texlive/2014/texmf-dist/tex/latex/beamer/themes/color/beamercolorth
 emewhale.sty
 Package: beamercolorthemewhale 2010/06/17  (rcs-revision d02a7cf4d8ae)
@@ -735,19 +745,7 @@ Package: beamercolorthemewhale 2010/06/17  (rcs-revision d02a7cf4d8ae)
 (/usr/local/texlive/2014/texmf-dist/tex/latex/beamer/themes/color/beamercolorth
 emeorchid.sty
 Package: beamercolorthemeorchid 2010/06/17  (rcs-revision d02a7cf4d8ae)
-)
-(/usr/local/texlive/2014/texmf-dist/tex/latex/beamer/themes/inner/beamerinnerth
-emerounded.sty
-Package: beamerinnerthemerounded 2010/06/17  (rcs-revision d02a7cf4d8ae)
-)
-(/usr/local/texlive/2014/texmf-dist/tex/latex/beamer/themes/outer/beamerouterth
-emeinfolines.sty
-Package: beamerouterthemeinfolines 2012/10/16  (rcs-revision 51a8c72084af)
 ))
-(/usr/local/texlive/2014/texmf-dist/tex/latex/beamer/themes/color/beamercolorth
-emecrane.sty
-Package: beamercolorthemecrane 2010/06/17  (rcs-revision d02a7cf4d8ae)
-)
 (/usr/local/texlive/2014/texmf-dist/tex/latex/beamer/themes/font/beamerfontthem
 eserif.sty
 Package: beamerfontthemeserif 2010/06/17  (rcs-revision d02a7cf4d8ae)
@@ -790,12 +788,12 @@ L3 Module: l3file 2014/05/05 v4737 L3 File and I/O operations
 \l__iow_current_word_int=\count164
 \l__iow_current_indentation_int=\count165
 L3 Module: l3skip 2014/05/05 v4738 L3 Dimensions and skips
-\c_zero_dim=\dimen190
-\c_max_dim=\dimen191
-\l_tmpa_dim=\dimen192
-\l_tmpb_dim=\dimen193
-\g_tmpa_dim=\dimen194
-\g_tmpb_dim=\dimen195
+\c_zero_dim=\dimen192
+\c_max_dim=\dimen193
+\l_tmpa_dim=\dimen194
+\l_tmpb_dim=\dimen195
+\g_tmpa_dim=\dimen196
+\g_tmpb_dim=\dimen197
 \c_zero_skip=\skip60
 \c_max_skip=\skip61
 \l_tmpa_skip=\skip62
@@ -829,14 +827,14 @@ L3 Module: l3box 2014/05/04 v4728 L3 Experimental boxes
 \g_tmpb_box=\box57
 L3 Module: l3coffins 2014/05/04 v4728 L3 Coffin code layer
 \l__coffin_internal_box=\box58
-\l__coffin_internal_dim=\dimen196
-\l__coffin_offset_x_dim=\dimen197
-\l__coffin_offset_y_dim=\dimen198
-\l__coffin_x_dim=\dimen199
-\l__coffin_y_dim=\dimen200
-\l__coffin_x_prime_dim=\dimen201
+\l__coffin_internal_dim=\dimen198
+\l__coffin_offset_x_dim=\dimen199
+\l__coffin_offset_y_dim=\dimen200
+\l__coffin_x_dim=\dimen201
 Normal \dimen register pool exhausted, switching to extended pool.
-\l__coffin_y_prime_dim=\dimen256
+\l__coffin_y_dim=\dimen256
+\l__coffin_x_prime_dim=\dimen257
+\l__coffin_y_prime_dim=\dimen258
 \c_empty_coffin=\box59
 \l__coffin_aligned_coffin=\box60
 \l__coffin_aligned_internal_coffin=\box61
@@ -845,30 +843,30 @@ Normal \dimen register pool exhausted, switching to extended pool.
 \l__coffin_display_coffin=\box64
 \l__coffin_display_coord_coffin=\box65
 \l__coffin_display_pole_coffin=\box66
-\l__coffin_display_offset_dim=\dimen257
-\l__coffin_display_x_dim=\dimen258
-\l__coffin_display_y_dim=\dimen259
+\l__coffin_display_offset_dim=\dimen259
+\l__coffin_display_x_dim=\dimen260
+\l__coffin_display_y_dim=\dimen261
 L3 Module: l3color 2014/04/30 v4712 L3 Experimental color support
 L3 Module: l3luatex 2014/04/30 v4712 L3 Experimental LuaTeX-specific functions
 \g__cctab_allocate_int=\count177
 \g__cctab_stack_int=\count178
 L3 Module: l3candidates 2014/05/04 v4734 L3 Experimental additions to l3kernel
-\l__box_top_dim=\dimen260
-\l__box_bottom_dim=\dimen261
-\l__box_left_dim=\dimen262
-\l__box_right_dim=\dimen263
-\l__box_top_new_dim=\dimen264
-\l__box_bottom_new_dim=\dimen265
-\l__box_left_new_dim=\dimen266
-\l__box_right_new_dim=\dimen267
+\l__box_top_dim=\dimen262
+\l__box_bottom_dim=\dimen263
+\l__box_left_dim=\dimen264
+\l__box_right_dim=\dimen265
+\l__box_top_new_dim=\dimen266
+\l__box_bottom_new_dim=\dimen267
+\l__box_left_new_dim=\dimen268
+\l__box_right_new_dim=\dimen269
 \l__box_internal_box=\box67
-\l__coffin_bounding_shift_dim=\dimen268
-\l__coffin_left_corner_dim=\dimen269
-\l__coffin_right_corner_dim=\dimen270
-\l__coffin_bottom_corner_dim=\dimen271
-\l__coffin_top_corner_dim=\dimen272
-\l__coffin_scaled_total_height_dim=\dimen273
-\l__coffin_scaled_width_dim=\dimen274
+\l__coffin_bounding_shift_dim=\dimen270
+\l__coffin_left_corner_dim=\dimen271
+\l__coffin_right_corner_dim=\dimen272
+\l__coffin_bottom_corner_dim=\dimen273
+\l__coffin_top_corner_dim=\dimen274
+\l__coffin_scaled_total_height_dim=\dimen275
+\l__coffin_scaled_width_dim=\dimen276
 ))
 Package: l3keys2e 2014/05/05 v4740 LaTeX2e option processing using LaTeX3 keys
 )
@@ -965,7 +963,7 @@ Package: xparse 2014/05/05 v4740 L3 Experimental document command parser
 y
 Package: xtemplate 2014/05/05 v4740 L3 Experimental prototype document function
 s
-\l__xtemplate_tmp_dim=\dimen275
+\l__xtemplate_tmp_dim=\dimen277
 \l__xtemplate_tmp_int=\count184
 \l__xtemplate_tmp_muskip=\muskip18
 \l__xtemplate_tmp_skip=\skip66
@@ -976,11 +974,11 @@ Variant \prop_get:NoNF already defined; not changing it on line 108
 Package: xfrac 2014/05/04 v4728 L3 Experimental split-level fractions
 \l__xfrac_slash_box=\box68
 \l__xfrac_tmp_box=\box69
-\l__xfrac_denominator_bot_sep_dim=\dimen276
-\l__xfrac_numerator_bot_sep_dim=\dimen277
-\l__xfrac_numerator_top_sep_dim=\dimen278
-\l__xfrac_slash_left_sep_dim=\dimen279
-\l__xfrac_slash_right_sep_dim=\dimen280
+\l__xfrac_denominator_bot_sep_dim=\dimen278
+\l__xfrac_numerator_bot_sep_dim=\dimen279
+\l__xfrac_numerator_top_sep_dim=\dimen280
+\l__xfrac_slash_left_sep_dim=\dimen281
+\l__xfrac_slash_right_sep_dim=\dimen282
 \l__xfrac_slash_left_muskip=\muskip19
 \l__xfrac_slash_right_muskip=\muskip20
 .................................................
@@ -1016,19 +1014,19 @@ Package: trimclip 2012/05/16 v1.0 Trim and clip general TeX material
 Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
 \collectedbox=\box70
 )
-\tc@llx=\dimen281
-\tc@lly=\dimen282
-\tc@urx=\dimen283
-\tc@ury=\dimen284
+\tc@llx=\dimen283
+\tc@lly=\dimen284
+\tc@urx=\dimen285
+\tc@ury=\dimen286
 Package trimclip Info: Using driver 'tc-pdftex.def'.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/adjustbox/tc-pdftex.def
 File: tc-pdftex.def 2012/05/13 v1.0 Clipping driver for pdftex
 ))
-\adjbox@Width=\dimen285
-\adjbox@Height=\dimen286
-\adjbox@Depth=\dimen287
-\adjbox@Totalheight=\dimen288
+\adjbox@Width=\dimen287
+\adjbox@Height=\dimen288
+\adjbox@Depth=\dimen289
+\adjbox@Totalheight=\dimen290
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
 Package: ifoddpage 2011/09/13 v1.0 Conditionals for odd/even page detection
@@ -1038,33 +1036,69 @@ Package: ifoddpage 2011/09/13 v1.0 Conditionals for odd/even page detection
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \@vwid@box=\box71
 \sift@deathcycles=\count187
-\@vwid@loff=\dimen289
-\@vwid@roff=\dimen290
+\@vwid@loff=\dimen291
+\@vwid@roff=\dimen292
 ))
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 8.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 8.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 8.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 8.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 8.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 8.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 8.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 8.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 8.
+
 (./botany2015talk.aux)
 \openout1 = `botany2015talk.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 16.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 16.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 17.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 17.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    ... okay on input line 17.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1074,14 +1108,14 @@ LaTeX Font Info:    ... okay on input line 16.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: includehead includefoot 
-* h-part:(L,W,R)=(10.00002pt, 344.19533pt, 10.00002pt)
+* h-part:(L,W,R)=(59.22636pt, 290.74263pt, 14.22636pt)
 * v-part:(T,H,B)=(0.0pt, 273.14662pt, 0.0pt)
 * \paperwidth=364.19536pt
 * \paperheight=273.14662pt
-* \textwidth=344.19533pt
+* \textwidth=290.74263pt
 * \textheight=244.6939pt
-* \oddsidemargin=-62.26997pt
-* \evensidemargin=-62.26997pt
+* \oddsidemargin=-13.04362pt
+* \evensidemargin=-13.04362pt
 * \topmargin=-72.26999pt
 * \headheight=14.22636pt
 * \headsep=0.0pt
@@ -1103,13 +1137,13 @@ LaTeX Font Info:    ... okay on input line 16.
 (/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count188
-\scratchdimen=\dimen291
+\scratchdimen=\dimen293
 \scratchbox=\box72
 \nofMPsegments=\count189
 \nofMParguments=\count190
 \everyMPshowfont=\toks47
 \MPscratchCnt=\count191
-\MPscratchDim=\dimen292
+\MPscratchDim=\dimen294
 \MPnumerator=\count192
 \makeMPintoPDFobject=\count193
 \everyMPtoPDFconversion=\toks48
@@ -1130,7 +1164,7 @@ e
 ))
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box73
-Package hyperref Info: Link coloring OFF on input line 16.
+Package hyperref Info: Link coloring OFF on input line 17.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1140,9 +1174,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count194
 )
-LaTeX Info: Redefining \ref on input line 16.
-LaTeX Info: Redefining \pageref on input line 16.
-LaTeX Info: Redefining \nameref on input line 16.
+LaTeX Info: Redefining \ref on input line 17.
+LaTeX Info: Redefining \pageref on input line 17.
+LaTeX Info: Redefining \nameref on input line 17.
 
 (./botany2015talk.out) (./botany2015talk.out)
 \@outlinefile=\write5
@@ -1173,83 +1207,132 @@ Dictionary: translator-numbers-dictionary, Language: English
 r-theorem-dictionary/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \includegraphics on input line 16.
+LaTeX Info: Redefining \includegraphics on input line 17.
 
 (./botany2015talk.nav)
-
-LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
-(Font)              size <5> substituted on input line 17.
-
-[1
-
-{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Try loading font information for U+msa on input line 25.
+LaTeX Font Info:    Try loading font information for U+msa on input line 18.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 25.
+LaTeX Font Info:    Try loading font information for U+msb on input line 18.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [2
+)
+
+LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
+(Font)              size <5> substituted on input line 18.
+
+LaTeX Font Info:    Calculating math sizes for size <4> on input line 18.
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <4> not available
+(Font)              size <5> substituted on input line 18.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <2.79999> not available
+(Font)              size <5> substituted on input line 18.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <2> not available
+(Font)              size <5> substituted on input line 18.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <4> not available
+(Font)              size <5> substituted on input line 18.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <2.79999> not available
+(Font)              size <5> substituted on input line 18.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <2> not available
+(Font)              size <5> substituted on input line 18.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <4> not available
+(Font)              size <5> substituted on input line 18.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <2.79999> not available
+(Font)              size <5> substituted on input line 18.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <2> not available
+(Font)              size <5> substituted on input line 18.
+
+[1{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+]
+(./botany2015talk.toc) [2
 
 ]
 
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 27.
+LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <4> not available
+(Font)              size <5> substituted on input line 31.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 27.
+LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <2.79999> not available
+(Font)              size <5> substituted on input line 31.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <2> not available
+(Font)              size <5> substituted on input line 31.
 
 [3
 
-] [4
+]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 33.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 33.
+
+[4
 
 ] [5
 
+] [6
+
 ]
-LaTeX Font Info:    Calculating math sizes for size <6.29997> on input line 82.
+LaTeX Font Info:    Calculating math sizes for size <6.29997> on input line 88.
 
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <4.40996> not available
-(Font)              size <5> substituted on input line 82.
+(Font)              size <5> substituted on input line 88.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <3.14998> not available
-(Font)              size <5> substituted on input line 82.
+(Font)              size <5> substituted on input line 88.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <4.40996> not available
-(Font)              size <5> substituted on input line 82.
+(Font)              size <5> substituted on input line 88.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <3.14998> not available
-(Font)              size <5> substituted on input line 82.
+(Font)              size <5> substituted on input line 88.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <4.40996> not available
-(Font)              size <5> substituted on input line 82.
+(Font)              size <5> substituted on input line 88.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <3.14998> not available
-(Font)              size <5> substituted on input line 82.
+(Font)              size <5> substituted on input line 88.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <4.40996> not available
-(Font)              size <5> substituted on input line 82.
+(Font)              size <5> substituted on input line 88.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <3.14998> not available
-(Font)              size <5> substituted on input line 82.
+(Font)              size <5> substituted on input line 88.
 
-
-Overfull \vbox (20.37181pt too high) detected at line 82
- []
-
-[6
+[7
 
 ]
 \tf@nav=\write6
@@ -1261,28 +1344,28 @@ Overfull \vbox (20.37181pt too high) detected at line 82
 \tf@snm=\write8
 \openout8 = `botany2015talk.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 84.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 84.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 90.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 90.
  (./botany2015talk.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 84.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 84.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 90.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 90.
 Package rerunfilecheck Info: File `botany2015talk.out' has not changed.
-(rerunfilecheck)             Checksum: AB2DA7D6498CE9B82FF58FE0ADCA3A5B;307.
+(rerunfilecheck)             Checksum: A3F2FC50B53ED978A0013E28BCC4080D;307.
 
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 3.25002pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 84.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 90.
  ) 
 Here is how much of TeX's memory you used:
- 23633 strings out of 493117
- 464384 string characters out of 6135433
- 532979 words of memory out of 5000000
- 26594 multiletter control sequences out of 15000+600000
- 18621 words of font info for 75 fonts, out of 8000000 for 9000
+ 23722 strings out of 493117
+ 467090 string characters out of 6135433
+ 533574 words of memory out of 5000000
+ 26681 multiletter control sequences out of 15000+600000
+ 21501 words of font info for 87 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,21n,55p,10447b,583s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 56i,21n,64p,10447b,602s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb>
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
@@ -1291,21 +1374,24 @@ sr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr
 /local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/l
 ocal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/loc
 al/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local
-/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/te
-xlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texli
-ve/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/texliv
-e/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/local/texlive
-/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2
-014/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/local/texlive/201
-4/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/20
-14/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/local/texlive/20
-14/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi12.pfb></usr/local/texlive/20
-14/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/201
-4/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
-Output written on botany2015talk.pdf (6 pages, 180963 bytes).
+/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/te
+xlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texli
+ve/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/
+2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/201
+4/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/texlive/2014
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/local/texlive/2014/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2014/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/local/texlive/2014/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2014/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/local/texlive/2014/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmssi12.pfb></usr/local/texlive/2014/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/local/texlive/2014/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2014/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
+Output written on botany2015talk.pdf (7 pages, 207581 bytes).
 PDF statistics:
- 285 PDF objects out of 1000 (max. 8388607)
- 245 compressed objects within 3 object streams
- 19 named destinations out of 1000 (max. 500000)
- 101 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 359 PDF objects out of 1000 (max. 8388607)
+ 318 compressed objects within 4 object streams
+ 21 named destinations out of 1000 (max. 500000)
+ 83 words of extra memory for PDF output out of 10000 (max. 10000000)
 
