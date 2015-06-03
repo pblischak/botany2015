@@ -6,7 +6,13 @@ The presentation is in the file pblischak_botany2015talk.pdf. I made the present
 
 ### `doc/`
 
-All of the TeX files for putting together the presentation are here. The finalized figures are in the `figures/`.
+The .tex file for the presentation can be found here. It can be compiled and repoduced by cloning this repo and typing `make`:
+
+```bash
+git clone https://github.com/pblischak/botany2015.git
+cd botany2015talk
+make
+```
 
 ### `fig/`
 
