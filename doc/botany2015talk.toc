@@ -1,6 +1,0 @@
-\beamer@endinputifotherversion {3.33pt}
-\beamer@sectionintoc {1}{Tests for introgression}{3}{0}{1}
-\beamer@subsectionintoc {1}{1}{Patterson's D-statistic}{3}{0}{1}
-\beamer@subsectionintoc {1}{2}{$f$ estimators}{4}{0}{1}
-\beamer@sectionintoc {2}{{\it Penstemon attenuatus}}{5}{0}{2}
-\beamer@sectionintoc {3}{Population genetics models}{6}{0}{3}

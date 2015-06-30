@@ -1,4 +1,4 @@
 *~
 .DS_Store
-doc/*.pdf
-doc/*.synctex.gz
+doc/botany2015talk.*
+!doc/botany2015talk.tex

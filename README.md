@@ -13,7 +13,7 @@ The presentation was make using the **beamer** class with **LaTeX**.
 
 The TeX file for the presentation can be found here. 
 The figures are also in the `pdfs/` folder. 
-The presentation can be repoduced by cloning this repo and typing `make`:
+The presentation can be repoduced by cloning this repository and typing `make`:
 
 ```bash
 git clone https://github.com/pblischak/botany2015.git
