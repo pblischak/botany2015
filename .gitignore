@@ -2,3 +2,4 @@
 .DS_Store
 doc/botany2015talk.*
 !doc/botany2015talk.tex
+*.pdf
