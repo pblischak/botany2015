@@ -5,7 +5,8 @@ Estimating allele frequencies in non-model polyploids using high throughput sequ
 Botany 2015. Edmonton, Alberta.
 
 The slides can be found on <a href="http://figshare.com/" target="_blank">fig<strong>share</strong></a>. 
-The presentation was make using the **beamer** class with **LaTeX**. 
+The presentation was make using the beamer class with LaTeX. 
+You'll need a LaTeX distribution to recreate the slides for the talk.
 
 ----
 
