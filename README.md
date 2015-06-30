@@ -1,21 +1,22 @@
 # Botany 2015 presentation
 
-**Blischak, P. D.**, L. S. Kubatko, A. D. Wolfe. Estimating allele frequencies in non-model polyploids using high throughput sequencing data. Botany 2015. Edmonton, Alberta, Canada.
+Blischak, P. D.*, L. S. Kubatko, A. D. Wolfe. 
+Estimating allele frequencies in non-model polyploids using high throughput sequencing data. 
+Botany 2015. Edmonton, Alberta.
 
-The presentation is in the file pblischak_botany2015talk.pdf. I made the presentation using **LaTeX** and **beamer**. 
+The slides can be found on <a href="http://figshare.com/" target="_blank">fig<strong>share</strong></a>. 
+The presentation was make using the **beamer** class with **LaTeX**. 
 
---------
+----
 
 ## `doc/`
 
-The .tex file for the presentation can be found here. It can be compiled and repoduced by cloning this repo and typing `make`:
+The TeX file for the presentation can be found here. 
+The figures are also in the `pdfs/` folder. 
+The presentation can be repoduced by cloning this repo and typing `make`:
 
 ```bash
 git clone https://github.com/pblischak/botany2015.git
 cd botany2015talk
 make
 ```
-
-## `fig/`
-
-These are the raw pieces of the figures as well as the code to generate them. I used **Inkscape** to do all of the figure manipulations.
