@@ -14,10 +14,10 @@ You'll need a LaTeX distribution to recreate the slides for the talk.
 
 The TeX file for the presentation can be found here. 
 The figures are also in the `pdfs/` folder. 
-The presentation can be repoduced by cloning this repository and typing `make`:
+The presentation can be repoduced by cloning this repository and typing `make slides`:
 
 ```bash
 git clone https://github.com/pblischak/botany2015.git
 cd botany2015talk
-make
+make slides
 ```

@@ -1,5 +1,5 @@
 *~
 .DS_Store
-doc/botany2015talk.*
-!doc/botany2015talk.tex
+botany2015talk.*
+!botany2015talk.tex
 *.pdf
