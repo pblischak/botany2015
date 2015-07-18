@@ -1,4 +1,4 @@
-slides: botany2015talk.tex
+botany2015talk.pdf: botany2015talk.tex
 	pdflatex botany2015talk
 	pdflatex botany2015talk
 
