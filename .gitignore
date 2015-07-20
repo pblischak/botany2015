@@ -3,3 +3,4 @@
 botany2015talk.*
 !botany2015talk.tex
 ./*.pdf
+*.eps
