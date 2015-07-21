@@ -1,67 +1,117 @@
-\documentclass[t,presentation,10pt]{beamer}
+\documentclass[presentation]{beamer}
 \usetheme{Frankfurt}
 \usecolortheme{default}
-\usefonttheme[onlymath]{serif}
-\usepackage{xfrac}
-\usepackage{adjustbox}
 \title[Allele frequencies in autopolyploids]{Estimating allele frequencies in non-model [auto]polyploids using high throughput sequencing data}
-\author[Botany 2015]{Paul Blischak$^1$, Laura Kubatko$^{1,2}$, Andrea Wolfe$^1$}
-\institute[Edmonton]
-{\bfseries
-$^1$Dept. of EEOB \\
-$^2$Dept. of Statistics \\
-The Ohio State University
-}
-\date{\today}
+\author[Blischak et al.]{Paul Blischak\inst{1}, Laura Kubatko\inst{1,2} and Andrea Wolfe\inst{1}}
+
+\institute[OSU]{\inst{1}Dept. of EEOB\\  \inst{2}Dept. of Statistics \\ The Ohio State University}
+
+\date{29 July, 2015}
 
 \begin{document}
 
-\frame{\titlepage}
-
-\begin{frame}
-\frametitle{Outline}
-\tableofcontents
+\begin{frame}[plain]
+	\titlepage
+	\vspace{-0.3in}
+	\begin{center}
+		\includegraphics[width=0.25\textwidth]{fig/botany2015logo}
+	\end{center}
 \end{frame}
 
-\section{Historical background}
-\subsection{Early empiricists}
-
-\begin{frame}
-\frametitle{Early empiricists}
-
+\begin{frame}[t]{Outline}
+	\tableofcontents
 \end{frame}
 
+%%%%
+\section{A brief history}
+%%%%
+
+%%
 \subsection{Early theory}
+%%
 
-\begin{frame}
-\frametitle{Early theory}
-\begin{itemize}
-	\item \textbf{Haldane} -- Models for autopolyploids.
-	\item \textbf{Fisher} -- Models for autopolyploids inheritance w/ double reduction.
-	\item \textbf{Wright} -- Models for the distribution of allele frequencies in autopolyploids.
-\end{itemize}
+\begin{frame}[t]{Early theory}
+	The usual suspects:
+	\begin{itemize}
+		\item \textbf{Fisher} -- Models for autopolyploids inheritance w/ double reduction in \textit{Lythrum salicaria}.
+		\item \textbf{Haldane} -- Models for autopolyploids.
+		\item \textbf{Wright} -- Models for the distribution of allele frequencies (in autopolyploids).
+	\end{itemize}
+	
+	
+\end{frame}
+
+%%
+\subsection{Empirical motivation}
+%%
+
+\begin{frame}[t]{Empirical motivation}
+	There was a particularly beautiful synergism between the theoretical and empirical work being done for polyploids.
 
 \end{frame}
 
-%
-
+%%%%
 \section{Polyploid pop-gen}
+%%%%
 
+%%
 \subsection{Challenges}
+%%
 
+\begin{frame}[t]{Challenges}
+
+\end{frame}
+
+%%
 \subsection{Allelic Dosage Uncertainty}
+%%
 
-\begin{frame}[c]{A hierarchical model for poylploids}
+\begin{frame}[t]{Allelic Dosage Uncertainty (ADU)}
+
+\end{frame}
+
+%%
+\subsection{Overcoming ADU}
+%%
+
+\begin{frame}[c]{A hierarchical model for polyploids}
+	\begin{center}
+		\includegraphics[width=\textwidth]{fig/pop-gen-model-empty}
+	\end{center}
+\end{frame}
+
+\begin{frame}[c]{A hierarchical model for polyploids}
+	$p_{\ell}$ -- allele frequency at locus $\ell$. \\
+	$g_{i \ell}$ -- genotype for individual $i$ at locus $\ell$. \\
+	$r_{i \ell}$ -- sequencing reads for individual $i$ at locus $\ell$.
+	\vspace{0.1in}
 	\begin{center}
 		\includegraphics[width=0.6\textwidth]{fig/figure1-model-graph}
 	\end{center}
 \end{frame}
 
-\subsection{Overcoming ADU}
-
+%%%%
 \section{Simulations}
+%%%%
 
-\begin{frame}[c,plain]{}
+%%
+\subsection{Setup}
+%%
+
+\begin{frame}[t]{Setup}
+	\begin{itemize}
+		\item Tetraploids ($\psi=4$) and hexaploids ($\psi=6$).
+		\item Allele frequencies: 0.01, 0.05, 0.1, 0.2, 0.4.
+		\item Sequencing coverage (average \# of reads per individual per locus): 5x, 10x, 20x, 50x, 100x.
+		\item Number of individuals sampled: 5, 10, 20, 30.
+	\end{itemize}
+\end{frame}
+
+%%
+\subsection{Results}
+%%
+
+\begin{frame}[c]{}
 	\begin{center}
 		\includegraphics[width=0.9\textwidth]{fig/hex-plot0-05}
 	\end{center}
@@ -82,6 +132,51 @@ The Ohio State University
 \begin{frame}[c]{}
 	\begin{center}
 		\includegraphics[width=\textwidth]{fig/figure4-coverage-sd}
+	\end{center}
+\end{frame}
+
+%%%%
+\section*{}
+%%%%
+
+\begin{frame}[t,plain]{Code availability}
+	\fontsize{10pt}{10}\selectfont
+	\begin{itemize}
+		\item \textbf{polyfreqs}: an R package for the estimation of allele frequencies in autopolyploids. Available on GitHub -- \url{https://github.com/pblischak/polyfreqs}.
+		\vspace{0.2in}
+		
+		\item Manuscript is currently in review, preprint is on bioR$\chi$iv -- \url{http://biorxiv.org/content/early/2015/07/02/021907}.
+		\vspace{0.2in}
+	
+		\item Data and code for the simulation study and making the figures is on GitHub -- \url{https://github.com/pblischak/polyfreqs-ms-data}.
+		\vspace{0.2in}
+	
+		\item Presentation slides will be on fig\textbf{share} shortly, and \LaTeX{} source code will also be on GitHub -- \url{https://github.com/pblischak/botany2015}.
+	\end{itemize}
+\end{frame}
+
+\begin{frame}[t,plain]{Acknowledgments}
+	\begin{columns}[onlytextwidth]
+	\column{0.4\textwidth}
+	\begin{itemize}
+		\item Aaron Wenzel, and members of the Wolfe and Kubatko labs
+		\item Ohio Supercomputer Center (Simulations)
+		\item American Society of Plant Taxonomists (Travel Award)
+		\item National Science Foundation (Funding)
+	\end{itemize}
+	
+	\column{0.4\textwidth}
+	\begin{center}
+	\includegraphics[width=0.85\textwidth]{fig/logos}
+	\end{center}
+	\end{columns}
+\end{frame}
+
+\begin{frame}[c,plain]{}
+	\begin{center}
+		{\Huge Thanks!}\\
+		\vspace{0.5in}
+		{\LARGE Questions?}
 	\end{center}
 \end{frame}
 
