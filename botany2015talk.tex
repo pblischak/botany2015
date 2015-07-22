@@ -30,14 +30,18 @@
 \subsection{Early theory}
 %%
 
-\begin{frame}[t]{Early theory}
+\begin{frame}[t]{A brief history}
+	\framesubtitle{Early theory}
 	The usual suspects:
 	\begin{itemize}
 		\item \textbf{Fisher} -- Models for autopolyploids inheritance w/ double reduction in \textit{Lythrum salicaria}.
 		\item \textbf{Haldane} -- Models for autopolyploids.
-		\item \textbf{Wright} -- Models for the distribution of allele frequencies (in autopolyploids).
+		\item \textbf{Wright} -- Models for the distribution of allele frequencies.
 	\end{itemize}
 	
+	\begin{center}
+		\includegraphics[width=0.8\textwidth]{fig/fisher-haldane-wright}
+	\end{center}
 	
 \end{frame}
 
@@ -46,8 +50,12 @@
 %%
 
 \begin{frame}[t]{Empirical motivation}
-	There was a particularly beautiful synergism between the theoretical and empirical work being done for polyploids.
-
+	There was a particularly fruitful synergism between the theoretical and empirical work being done for polyploids during the Modern Synthesis.
+	\vspace{0.1in}
+	
+	\begin{center}
+		\includegraphics[width=\textwidth]{fig/barlow-mather}
+	\end{center}
 \end{frame}
 
 %%%%
@@ -58,7 +66,8 @@
 \subsection{Challenges}
 %%
 
-\begin{frame}[t]{Challenges}
+\begin{frame}[t]{Polyploid pop-gen}
+\framesubtitle{Challenges}
 
 \end{frame}
 
@@ -74,7 +83,7 @@
 \subsection{Overcoming ADU}
 %%
 
-\begin{frame}[c]{A hierarchical model for polyploids}
+\begin{frame}[c]{Overcoming ADU}
 	\begin{center}
 		\includegraphics[width=\textwidth]{fig/pop-gen-model-empty}
 	\end{center}
@@ -98,7 +107,12 @@
 \subsection{Setup}
 %%
 
-\begin{frame}[t]{Setup}
+\begin{frame}[t]{Simulations}
+	\framesubtitle{Setup}
+	
+	We used the following settings for the simulations to test our model:
+	\vspace{0.1in}
+	
 	\begin{itemize}
 		\item Tetraploids ($\psi=4$) and hexaploids ($\psi=6$).
 		\item Allele frequencies: 0.01, 0.05, 0.1, 0.2, 0.4.
@@ -111,7 +125,10 @@
 \subsection{Results}
 %%
 
-\begin{frame}[c]{}
+\begin{frame}[c]{Results}
+	\framesubtitle{Heatmaps}
+	\textbf{x-axis}: \# of individuals, \textbf{y-axis}: coverage, \textbf{scale}: error (s.d.)
+	\pause
 	\begin{center}
 		\includegraphics[width=0.9\textwidth]{fig/hex-plot0-05}
 	\end{center}
@@ -129,10 +146,15 @@
 	\end{center}
 \end{frame}
 
-\begin{frame}[c]{}
-	\begin{center}
-		\includegraphics[width=\textwidth]{fig/figure4-coverage-sd}
-	\end{center}
+%%%%
+\section{Conclusions}
+%%%%
+
+\subsection*{Conclusions}
+
+\begin{frame}[t]{Conclusions}
+	Using sequencing reads as the primary source of data and integrating over genotypes is a viable solution for dealing with ADU.
+	\vspace{0.1in}
 \end{frame}
 
 %%%%
