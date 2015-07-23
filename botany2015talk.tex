@@ -34,13 +34,13 @@
 	\framesubtitle{Early theory}
 	The usual suspects:
 	\begin{itemize}
-		\item \textbf{Fisher} -- Models for autopolyploids inheritance w/ double reduction in \textit{Lythrum salicaria}.
-		\item \textbf{Haldane} -- Models for autopolyploids.
-		\item \textbf{Wright} -- Models for the distribution of allele frequencies.
+		\item \textbf{Fisher} -- Models for polysomic inheritance w/ double reduction in \textit{Lythrum salicaria}.
+		\item \textbf{Haldane} -- Models for determining gamete frequencies w/ partial selfing.
+		\item \textbf{Wright} -- Models for the distribution of allele frequencies subject to selection, migration and inbreeding.
 	\end{itemize}
 	
 	\begin{center}
-		\includegraphics[width=0.8\textwidth]{fig/fisher-haldane-wright}
+		\includegraphics[width=0.75\textwidth]{fig/fisher-haldane-wright}
 	\end{center}
 	
 \end{frame}
@@ -69,6 +69,8 @@
 \begin{frame}[t]{Polyploid pop-gen}
 \framesubtitle{Challenges}
 
+
+
 \end{frame}
 
 %%
@@ -83,10 +85,17 @@
 \subsection{Overcoming ADU}
 %%
 
-\begin{frame}[c]{Overcoming ADU}
+\begin{frame}[t]{Overcoming ADU}
+	For a biallelic locus, such as a SNP, we can use techniques like RAD sequencing to ``sample" from the genotype.
+	\vspace{0.2in}
+	
 	\begin{center}
 		\includegraphics[width=\textwidth]{fig/pop-gen-model-empty}
 	\end{center}
+	
+	\pause
+	\vspace{0.1in}
+	Let's translate this illustration into something more mathematical.
 \end{frame}
 
 \begin{frame}[c]{A hierarchical model for polyploids}
@@ -94,6 +103,18 @@
 	$g_{i \ell}$ -- genotype for individual $i$ at locus $\ell$. \\
 	$r_{i \ell}$ -- sequencing reads for individual $i$ at locus $\ell$.
 	\vspace{0.1in}
+	\begin{center}
+		\includegraphics[width=0.6\textwidth]{fig/figure1-model-graph}
+	\end{center}
+\end{frame}
+
+\begin{frame}[t]{A hierarchical model for polyploids}
+	\vspace{-0.182in}
+	\begin{align*}
+		P(\text{allele freq} \vert \text{sequencing reads}) \propto\, &P(\text{sequencing reads} \vert \text{genotype}) \times\\
+		&P(\text{genotype} \vert \text{allele freq})P(\text{allele freq})
+	\end{align*}
+		
 	\begin{center}
 		\includegraphics[width=0.6\textwidth]{fig/figure1-model-graph}
 	\end{center}
@@ -114,7 +135,7 @@
 	\vspace{0.1in}
 	
 	\begin{itemize}
-		\item Tetraploids ($\psi=4$) and hexaploids ($\psi=6$).
+		\item Tetraploids (4X) and hexaploids (6X).
 		\item Allele frequencies: 0.01, 0.05, 0.1, 0.2, 0.4.
 		\item Sequencing coverage (average \# of reads per individual per locus): 5x, 10x, 20x, 50x, 100x.
 		\item Number of individuals sampled: 5, 10, 20, 30.
@@ -130,7 +151,7 @@
 	\textbf{x-axis}: \# of individuals, \textbf{y-axis}: coverage, \textbf{scale}: error (s.d.)
 	\pause
 	\begin{center}
-		\includegraphics[width=0.9\textwidth]{fig/hex-plot0-05}
+		\includegraphics[width=0.85\textwidth]{fig/hex-plot0-05}
 	\end{center}
 \end{frame}
 
@@ -181,10 +202,10 @@
 	\begin{columns}[onlytextwidth]
 	\column{0.4\textwidth}
 	\begin{itemize}
-		\item Aaron Wenzel, and members of the Wolfe and Kubatko labs
-		\item Ohio Supercomputer Center (Simulations)
-		\item American Society of Plant Taxonomists (Travel Award)
-		\item National Science Foundation (Funding)
+		\item Aaron Wenzel, and members of the Wolfe and Kubatko labs.
+		\item Ohio Supercomputer Center (Simulations).
+		\item American Society of Plant Taxonomists (Travel Award).
+		\item National Science Foundation (Funding).
 	\end{itemize}
 	
 	\column{0.4\textwidth}
