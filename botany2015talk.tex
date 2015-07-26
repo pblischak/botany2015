@@ -68,7 +68,15 @@
 
 \begin{frame}[t]{Polyploid pop-gen}
 \framesubtitle{Challenges}
-
+	The difficulties of making population genetic inferences in polyploids present themselves at two broad levels:
+	\vspace{0.1in}
+	
+	\begin{enumerate}
+		\item \textbf{Allelic Dosage Uncertainty}: the inability to fully resolve the genotype of a partially heterozygous polyploid individual for a codominant marker (microsatellite, SNP).
+		\vspace{0.2in}
+		
+		\item \textbf{Allelic inheritance}: disomic vs. polysomic vs. heterosomic, selfing, clonal, double reduction, etc.
+	\end{enumerate}
 
 
 \end{frame}
@@ -78,7 +86,23 @@
 %%
 
 \begin{frame}[t]{Allelic Dosage Uncertainty (ADU)}
+	\textit{...the inability to fully resolve the genotype of a partially heterozygous polyploid individual for a codominant marker.}
+	\vspace{0.1in}
+	
+	\begin{itemize}
+		\item \textbf{Partial heterozygote} -- when the number of observed alleles at a locus is less than the ploidy level and not equal to 1.
+		\vspace{0.1in}
 
+		\item \textbf{Ex}: For a locus with observed alleles A, B and C in a tetraploid (4X), the possible genotypes are AABC, ABBC or ABCC.
+		\vspace{0.1in}
+		
+		\item The higher the ploidy, the worse the problem.
+		\vspace{0.1in}
+		
+		\item Biallelic SNPs will always be partially heterozygous for a polyploid.
+		
+	\end{itemize}
+	
 \end{frame}
 
 %%
@@ -109,7 +133,8 @@
 \end{frame}
 
 \begin{frame}[t]{A hierarchical model for polyploids}
-	\vspace{-0.182in}
+	\fontsize{10pt}{10}\selectfont
+	\vspace{-0.0375in}
 	\begin{align*}
 		P(\text{allele freq} \vert \text{sequencing reads}) \propto\, &P(\text{sequencing reads} \vert \text{genotype}) \times\\
 		&P(\text{genotype} \vert \text{allele freq})P(\text{allele freq})
@@ -174,8 +199,16 @@
 \subsection*{Conclusions}
 
 \begin{frame}[t]{Conclusions}
-	Using sequencing reads as the primary source of data and integrating over genotypes is a viable solution for dealing with ADU.
-	\vspace{0.1in}
+	\fontsize{10pt}{10}\selectfont
+	\begin{itemize}
+		\item \textsc{Take home}: \textbf{Don't have to use genotypes as the first line of data}. Using sequencing reads and integrating over genotypes is a viable solution for dealing with ADU.
+		\vspace{0.2in}
+	
+		\item Item 2
+		\vspace{0.2in}
+		
+	\end{itemize}
+	
 \end{frame}
 
 %%%%
