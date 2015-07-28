@@ -7,14 +7,14 @@ Botany 2015. Edmonton, Alberta. fig**share**, doi: ####.
 ## Additional resources
 
 - The slides can be found on <a href="http://figshare.com/" target="_blank">fig<strong>share</strong></a>.
-- The associated R package, **polyfreqs**, can be found on GitHub: </a href="https://github.com/pblischak/polyfreqs" target="_blank"><strong>polyfreqs</strong></a>.
-- All data and code for the simulation study can also be found on GitHub: </a href="https://github.com/pblischak/polyfreqs-ms-data" target="_blank">polyfreqs-ms-data</a>.
+- The associated R package, **polyfreqs**, can be found on GitHub: <a href="https://github.com/pblischak/polyfreqs" target="_blank"><strong>polyfreqs</strong></a>.
+- All data and code for the simulation study can also be found on GitHub: <a href="https://github.com/pblischak/polyfreqs-ms-data" target="_blank">polyfreqs-ms-data</a>.
 - Our manuscript is currently in review but you can find the preprint on bioRxiv: <a href="http://biorxiv.org/content/early/2015/07/02/021907" target="_blank">preprint</a>.
 
+## Making the presentation from source
 
 The presentation was make using the beamer class with LaTeX. 
 You'll need a LaTeX distribution to recreate the slides for the talk.
-
 
 This repository contains the TeX file for making the presentation. 
 The PDFs for the figures are in the `fig/` folder.
