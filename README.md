@@ -2,7 +2,7 @@
 
 Blischak, P. D.\*, L. S. Kubatko, A. D. Wolfe. 
 Estimating allele frequencies in non-model [auto]polyploids using high throughput sequencing data. 
-Botany 2015. Edmonton, Alberta. fig**share**, doi: ####.
+Botany 2015. Edmonton, Alberta. fig**share**, doi: http://dx.doi.org/10.6084/m9.figshare.1495514.
 
 ## Additional resources
 
