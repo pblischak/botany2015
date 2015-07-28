@@ -8,6 +8,8 @@
 
 \date{29 July, 2015}
 
+\setbeamercolor{alerted text}{fg=blue}
+
 \begin{document}
 
 \begin{frame}[plain]
@@ -34,7 +36,7 @@
 	\framesubtitle{Early theory}
 	The usual suspects:
 	\begin{itemize}
-		\item \textbf{Fisher} -- Models for polysomic inheritance w/ double reduction in \textit{Lythrum salicaria}.
+		\item \textbf{Fisher} -- Models for polysomic inheritance of trimorphic style w/ double reduction in \textit{Lythrum salicaria}.
 		\item \textbf{Haldane} -- Models for determining gamete frequencies w/ partial selfing.
 		\item \textbf{Wright} -- Models for the distribution of allele frequencies subject to selection, migration and inbreeding.
 	\end{itemize}
@@ -67,7 +69,7 @@ Work on polyploid \textit{Zea}.
 		\includegraphics[width=\textwidth]{fig/barbara10}
 	\end{center}
 	
-	\hfill {\small \#Barbara10}
+	\hfill {\scriptsize \#Barbara10}
 
 \end{frame}
 
@@ -123,7 +125,7 @@ Work on polyploid \textit{Zea}.
 %%
 
 \begin{frame}[t]{Overcoming ADU}
-	For a biallelic locus, such as a SNP, we can use techniques like RAD sequencing to ``sample" from the genotype.
+	For a biallelic locus, such as a SNP, we can use techniques like RAD sequencing to ``sample" from the genotype (model with binomial probability distribution*).
 	\vspace{0.2in}
 	
 	\begin{center}
@@ -131,8 +133,22 @@ Work on polyploid \textit{Zea}.
 	\end{center}
 	
 	\pause
+	\begin{equation*}
+	P(10 \text{ red reads}|k \text{ red alleles}) = \binom{16}{10}\left(\frac{k}{4}\right)^{10}\left(1-\frac{k}{4}\right)^6
+	\end{equation*}
+	
+\end{frame}
+
+\begin{frame}[t]{Overcoming ADU}
+	For a biallelic locus, such as a SNP, we can use techniques like RAD sequencing to ``sample" from the genotype (model wit binomial probability distribution*).
+	\vspace{0.2in}
+	
+	\begin{center}
+		\includegraphics[width=\textwidth]{fig/pop-gen-model-empty}
+	\end{center}
+
 	\vspace{0.1in}
-	Let's translate this illustration into something more mathematical.
+	Let's translate the entire illustration into something more mathematical.
 \end{frame}
 
 \begin{frame}[c]{A hierarchical model for polyploids}
@@ -220,6 +236,9 @@ Work on polyploid \textit{Zea}.
 		\item \textbf{The framework presented here is highly extensible}. Future work includes generalizing to auto- and allopolyploids, more complex patterns of inheritance, species tree inference for polyploids based on allele frequencies(?).
 		\vspace{0.2in}
 		
+		\item \textbf{Sampling more individuals appears to be most important}. It's better to sample more individuals than to have higher sequencing coverage per individual per locus.
+		\vspace{0.2in}
+		
 		\item \textbf{Need empirical data}. Simulations are nice, but we need to see how a model such as this works for lab-collected data.
 		
 	\end{itemize}
@@ -239,14 +258,16 @@ Work on polyploid \textit{Zea}.
 		\item Manuscript is currently in review, preprint is on bioR$\chi$iv -- \url{http://biorxiv.org/content/early/2015/07/02/021907}.
 		\vspace{0.2in}
 	
-		\item Data and code for the simulation study and making the figures is on GitHub -- \url{https://github.com/pblischak/polyfreqs-ms-data}.
+		\item Data and code for the simulation study and making the figures are on GitHub -- \url{https://github.com/pblischak/polyfreqs-ms-data}.
 		\vspace{0.2in}
 	
-		\item Presentation slides will be on fig\textbf{share} shortly, and \LaTeX{} source code will also be on GitHub -- \url{https://github.com/pblischak/botany2015}.
+		\item Presentation slides are on fig\textbf{share}, and the \LaTeX{} source code is also on GitHub -- \url{https://github.com/pblischak/botany2015}.
 	\end{itemize}
-	\vspace{0.1in}
+	\vspace{0.15in}
 	
-	{\Large All these links are in the GitHub repository for this presentation: \textbf{pblischak/botany2015}.}
+	{\Large \alert{All these links are in the GitHub repository for this presentation: \textbf{pblischak/botany2015}.}}
+	
+	\hfill {\tiny \#openscience}
 \end{frame}
 
 \begin{frame}[t,plain]{Acknowledgments}
