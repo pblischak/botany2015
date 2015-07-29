@@ -108,7 +108,7 @@ Work on polyploid \textit{Zea}.
 		\item \textbf{Partial heterozygote} -- when the number of observed alleles at a locus is less than the ploidy level and not equal to 1 (i.e., is homozygous).
 		\vspace{0.1in}
 
-		\item \textbf{Ex}: For a locus with observed alleles A, B and C in a tetraploid (4X), the possible genotypes are AABC, ABBC or ABCC.
+		\item \textbf{Ex}: For a locus with observed alleles A, B and C in a tetraploid (4N), the possible genotypes are AABC, ABBC or ABCC.
 		\vspace{0.1in}
 		
 		\item The higher the ploidy, the worse the problem.
@@ -163,9 +163,9 @@ Work on polyploid \textit{Zea}.
 
 \begin{frame}[t]{A hierarchical model for polyploids}
 	\fontsize{10pt}{10}\selectfont
-	\vspace{-0.0375in}
+	\vspace{-0.21in}
 	\begin{align*}
-		P(\text{allele freq} \vert \text{sequencing reads}) \propto\, &P(\text{sequencing reads} \vert \text{genotype}) \times\\
+		P(\text{allele freq} \vert \text{sequencing reads}) \propto\, \sum_{\text{genos}} &P(\text{sequencing reads} \vert \text{genotype}) \times\\
 		&P(\text{genotype} \vert \text{allele freq})P(\text{allele freq})
 	\end{align*}
 		
@@ -189,7 +189,7 @@ Work on polyploid \textit{Zea}.
 	\vspace{0.1in}
 	
 	\begin{itemize}
-		\item Tetraploids (4X) and hexaploids (6X).
+		\item Tetraploids (4N) and hexaploids (6N).
 		\item Allele frequencies: 0.01, 0.05, 0.1, 0.2, 0.4.
 		\item Sequencing coverage (average \# of reads per individual per locus): 5x, 10x, 20x, 50x, 100x.
 		\item Number of individuals sampled: 5, 10, 20, 30.
